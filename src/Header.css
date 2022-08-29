@@ -1,0 +1,23 @@
+.App-header {
+    /* border-radius: 10px;
+    background-color: #130030dc; */
+    height: 100px;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    background-color: #005e91db;
+    margin-bottom: 7px;
+ 
+  }
+
+  .name{
+    color: aquamarine;
+    font-size: calc(2.375rem + 1.5vw);
+    font-family: ui-rounded;
+  }
+  
