@@ -16,8 +16,10 @@
   }
 
   .name{
-    color: aquamarine;
+    color: rgb(241, 241, 241);
     font-size: calc(2.375rem + 1.5vw);
     font-family: ui-rounded;
   }
-  
+  .title{
+    font-family: cursive;
+  }
