@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import './Body.css';
 
 
 function Body() {
@@ -32,7 +33,10 @@ function Body() {
         </a>
 
       </Card.Body>
-      <Card.Footer className="text-muted"> adicampan1974@gmail.com</Card.Footer>
+      <Card.Footer className="text-muted" >
+        <div> adicampan1974@gmail.com</div>
+        <div>A React project - August/2022</div>
+           </Card.Footer>
     </Card>
   );
 }
