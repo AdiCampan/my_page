@@ -1,45 +1,46 @@
 import React from 'react'
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
-import './Body.css';
-
+import './App.css';
 
 function Body() {
-
   return (
-    <Card className="text-center">
-      <Card.Header>About me</Card.Header>
-      <Card.Body>
-        <Card.Title>Titles and experience</Card.Title>
-        <Card.Text>
-          I have the title of electrician, and I have professed since 1992 as an electrician
-          in various companies. <br />
-          Since the year 2000 I began to be very curious about new technologies,
-          especially computers and computing.
-          I started repairing computers, phones, tablets etc. to all my friends,
-          however the way of programming fascinated me more and more.<br />
-          So a few years ago I did a couple of tutorials on YouTube, but in January 2022,
-          with the constant help of my mentor Flaviu Cimpan (Senior Web Developer),<br />
-          I start studying on a daily basis and very determined Java Script with React.
-          I like to be self-taught, search and ask.
-          Of course working in the web development sector would be a very interesting challenge
-          and it would make me very excited, although it is very scary to change the professional sector
-          after so many years.<br />
-          Life can give you many rewarding surprises.<br />
-          Adrian Campan
-        </Card.Text>
-        <a href="https://github.com/AdiCampan?tab=repositories" target="_blank" rel="noreferrer">
-          <Button variant="primary" >My Projects (Github)</Button>
-        </a>
+    <div className="glass-card about-card stretch-column">
+      <h2 className="display-font section-title">About Me</h2>
+      <div className="experience-badge">Full Stack Journey • Since 2022</div>
 
-      </Card.Body>
-      <Card.Footer className="text-muted" >
-        <div> adicampan1974@gmail.com</div>
-        <div>A React project - August/2022</div>
-           </Card.Footer>
-    </Card>
+      <div className="bio-text flex-grow">
+        <p>
+          My professional background started in the industrial sector as an <strong>electrician</strong>.
+          Those years in the field taught me the value of precision, systematic problem-solving,
+          and the importance of building robust systems that withstand real-world demands.
+        </p>
+        <p>
+          Driven by a lifelong curiosity for technology, I transitioned into software development.
+          Since 2022, I have been focused on mastering <strong>Modern JavaScript, React, and React Native</strong>.
+          I don't just write code; I build tools that solve problems, like the <strong>A3D Workforce Suite</strong>
+          which helps companies manage their daily operations more efficiently.
+        </p>
+        <p>
+          I am passionate about creating clean, high-performance applications that provide
+          great user experiences. Whether it's a real-time streaming platform or a mobile
+          management tool, my goal is always to deliver modern, scalable solutions.
+        </p>
+      </div>
+
+      <div className="action-area">
+        <button
+          className="primary-btn"
+          onClick={() => document.getElementById('projects-section').scrollIntoView({ behavior: 'smooth' })}
+        >
+          Explore My Projects
+        </button>
+      </div>
+
+      <div className="footer-info">
+        <span className="email-link">adicampan1974@gmail.com</span>
+        <span className="project-tag">A React Project • 2025</span>
+      </div>
+    </div>
   );
 }
-
 
 export default Body;

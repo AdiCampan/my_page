@@ -1,25 +1,33 @@
-.App-header {
-    /* border-radius: 10px;
-    background-color: #130030dc; */
-    height: 100px;
-    width: 100%;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    font-size: calc(10px + 2vmin);
-    color: white;
-    background-color: #005e91db;
-    margin-bottom: 7px;
- 
-  }
+.header-container {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+  /* Reduced padding */
+  text-align: center;
+}
 
-  .name{
-    color: rgb(241, 241, 241);
-    font-size: calc(2.375rem + 1.5vw);
-    font-family: ui-rounded;
+.title-group h4 {
+  color: var(--accent-blue);
+  font-weight: 500;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.name-title {
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: -0.02rem;
+  background: linear-gradient(to right, #fff, #cbd5e1);
+  /* Much lighter gray */
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 600px) {
+  .name-title {
+    font-size: 2rem;
   }
-  .title{
-    font-family: cursive;
-  }
+}
