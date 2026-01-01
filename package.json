@@ -2,7 +2,6 @@
   "name": "my_page",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://AdiCampan.github.io/my_page/",
   "engines": {
     "node": ">=20.x"
   },
@@ -47,7 +46,5 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "gh-pages": "^6.3.0"
-  }
+  "devDependencies": {}
 }
