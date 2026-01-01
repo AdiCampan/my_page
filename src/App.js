@@ -49,7 +49,13 @@ function App() {
 
             <div className="contact-actions-grid">
               {contactActions.map((action, i) => (
-                <a key={i} href={action.link} className="contact-action-btn" target="_blank" rel="noreferrer">
+                <a
+                  key={i}
+                  href={action.link}
+                  className="contact-action-btn"
+                  target={action.link.startsWith('http') ? "_blank" : undefined}
+                  rel="noreferrer"
+                >
                   <span className="action-icon">{action.icon}</span>
                   <span className="action-text">{action.label}</span>
                 </a>

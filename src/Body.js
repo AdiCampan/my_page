@@ -36,7 +36,7 @@ function Body() {
       </div>
 
       <div className="footer-info">
-        <span className="email-link">adicampan1974@gmail.com</span>
+        <a href="mailto:adicampan1974@gmail.com" className="email-link">adicampan1974@gmail.com</a>
         <span className="project-tag">A React Project • 2025</span>
       </div>
     </div>
