@@ -1,16 +1,34 @@
 {
   "files": {
-    "main.css": "/my_page/static/css/main.7e5da652.css",
-    "main.js": "/my_page/static/js/main.be9de870.js",
+    "main.css": "/my_page/static/css/main.7852689c.css",
+    "main.js": "/my_page/static/js/main.408579f4.js",
     "static/js/787.d3428903.chunk.js": "/my_page/static/js/787.d3428903.chunk.js",
-    "static/media/1.png": "/my_page/static/media/1.f6376fe3bb71c9111911.png",
+    "static/media/Capture.PNG": "/my_page/static/media/Capture.7e5175459c1526b04604.PNG",
+    "static/media/WbRTC Home.PNG": "/my_page/static/media/WbRTC Home.b0d1d15cbefcc8309a48.PNG",
+    "static/media/Capture2.PNG": "/my_page/static/media/Capture2.3e8c631b1e613cca1572.PNG",
+    "static/media/WebRTC Broadcaster.PNG": "/my_page/static/media/WebRTC Broadcaster.6e1a05d931d4dcac022d.PNG",
+    "static/media/WebRTC Listener.PNG": "/my_page/static/media/WebRTC Listener.242f50f58904391ff813.PNG",
+    "static/media/bg.png": "/my_page/static/media/bg.07b71d54232b6b3273c1.png",
+    "static/media/Capture3.PNG": "/my_page/static/media/Capture3.bb5e26b17d1eae095364.PNG",
+    "static/media/A3D Web -inicio.PNG": "/my_page/static/media/A3D Web -inicio.509f33c8e2676756e8cc.PNG",
+    "static/media/Capture4.PNG": "/my_page/static/media/Capture4.2dabdafe78e10c053b41.PNG",
+    "static/media/El Almacen.jpeg": "/my_page/static/media/El Almacen.f8455a6f1a517eff954f.jpeg",
+    "static/media/Image.jpeg": "/my_page/static/media/Image.fc774b5b7afa9f93e2f6.jpeg",
+    "static/media/Obras.jpeg": "/my_page/static/media/Obras.83310314cf8ba9c69e4b.jpeg",
+    "static/media/Fichar.jpeg": "/my_page/static/media/Fichar.6c70e4767add96a33572.jpeg",
+    "static/media/Mis Herramientas.jpeg": "/my_page/static/media/Mis Herramientas.b44221d755403984b361.jpeg",
+    "static/media/A3d -trabajadores.PNG": "/my_page/static/media/A3d -trabajadores.78da23407051328f89e8.PNG",
+    "static/media/A3D -Obras.PNG": "/my_page/static/media/A3D -Obras.0be1df045df09c5d3d57.PNG",
+    "static/media/A3D- Herramientas.PNG": "/my_page/static/media/A3D- Herramientas.77f7a3b38fe8bf56ef83.PNG",
+    "static/media/A3d - Informes.PNG": "/my_page/static/media/A3d - Informes.9f976c531251a7266f8c.PNG",
+    "static/media/A3D -Fichajes.PNG": "/my_page/static/media/A3D -Fichajes.30d0313fe9aff803a0bd.PNG",
     "index.html": "/my_page/index.html",
-    "main.7e5da652.css.map": "/my_page/static/css/main.7e5da652.css.map",
-    "main.be9de870.js.map": "/my_page/static/js/main.be9de870.js.map",
+    "main.7852689c.css.map": "/my_page/static/css/main.7852689c.css.map",
+    "main.408579f4.js.map": "/my_page/static/js/main.408579f4.js.map",
     "787.d3428903.chunk.js.map": "/my_page/static/js/787.d3428903.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e5da652.css",
-    "static/js/main.be9de870.js"
+    "static/css/main.7852689c.css",
+    "static/js/main.408579f4.js"
   ]
 }
