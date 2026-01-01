@@ -20,6 +20,24 @@ import mobileObras from './Assets/A3D/Obras.jpeg';
 import webrtcHome from './Assets/WebRTC/WbRTC Home.PNG';
 import webrtcBroadcaster from './Assets/WebRTC/WebRTC Broadcaster.PNG';
 import webrtcListener from './Assets/WebRTC/WebRTC Listener.PNG';
+import webrtcMobile from './Assets/WebRTC/Image.jpeg';
+
+// Import Secretariat Images
+import secrCover from './Assets/Secretariat/Capture.PNG';
+import secr2 from './Assets/Secretariat/Capture2.PNG';
+import secr3 from './Assets/Secretariat/Capture3.PNG';
+import secr4 from './Assets/Secretariat/Capture4.PNG';
+
+// Import Carti Cu stele Images
+import cartiCover from './Assets/Carti Cu stele/Capture.PNG';
+import carti2 from './Assets/Carti Cu stele/Capture2.PNG';
+import carti3 from './Assets/Carti Cu stele/Capture3.PNG';
+
+// Import ChurchTeams Images
+import churchCover from './Assets/ChurchTeams/Capture.PNG';
+import church2 from './Assets/ChurchTeams/Capture2.PNG';
+import church3 from './Assets/ChurchTeams/Capture3.PNG';
+import churchImg from './Assets/ChurchTeams/Image.jpeg';
 
 const projects = [
     {
@@ -44,7 +62,11 @@ const projects = [
         tech: ["React Native", "Expo", "WebRTC", "Android/iOS"],
         status: "Production",
         link: "https://github.com/AdiCampan/EbenEzerLive-MOBILE",
-        github: "https://github.com/AdiCampan/EbenEzerLive-MOBILE"
+        github: "https://github.com/AdiCampan/EbenEzerLive-MOBILE",
+        cover: webrtcMobile,
+        gallery: [
+            { url: webrtcMobile, caption: "Mobile App Interface" }
+        ]
     },
     {
         title: "A3D Workforce Suite",
@@ -52,7 +74,8 @@ const projects = [
         description: "A comprehensive solution for workforce management and legal compliance. Includes real-time clock-in monitoring, GPS worksite tracking, tool inventory management, and automated legal reporting on Google Cloud.",
         tech: ["React", "React Native", "Google Cloud", "Firebase"],
         status: "Production",
-        link: "https://github.com/AdiCampan",
+        link: "https://a3d-tools.web.app/",
+        github: "https://github.com/AdiCampan/a3d_web",
         cover: a3dCover,
         gallery: [
             { url: a3dCover, caption: "Admin Dashboard - Main View" },
@@ -73,7 +96,15 @@ const projects = [
         description: "Integral system for member tracking and administrative automation. Features a multi-language virtual secretary (ES/RO), visual statistics dashboard, and automated deployments with GitHub Actions.",
         tech: ["React", "Firebase", "MUI", "Redux", "i18next"],
         status: "Production",
-        link: "https://github.com/AdiCampan"
+        link: "https://evidenta-bisericii.web.app/",
+        github: "https://github.com/AdiCampan/evidenta-biserica--firebase-",
+        cover: secrCover,
+        gallery: [
+            { url: secrCover, caption: "Dashboard Overview" },
+            { url: secr2, caption: "Member Records" },
+            { url: secr3, caption: "Statistics and Reports" },
+            { url: secr4, caption: "System Settings" }
+        ]
     },
     {
         title: "Carti cu Stele",
@@ -82,7 +113,13 @@ const projects = [
         tech: ["Web Development", "E-commerce", "UI/UX"],
         status: "Production",
         link: "https://carticustele.ro/",
-        github: "https://github.com/nubica-t/carticustele-client"
+        github: "https://github.com/nubica-t/carticustele-client",
+        cover: cartiCover,
+        gallery: [
+            { url: cartiCover, caption: "E-commerce Homepage" },
+            { url: carti2, caption: "Book Catalog" },
+            { url: carti3, caption: "Product Details" }
+        ]
     },
     {
         title: "Worship Team Toolkit",
@@ -90,7 +127,15 @@ const projects = [
         description: "Innovative tool designed to coordinate worship teams. Manages rehearsal schedules, song libraries, and team availability to ensure seamless service preparation.",
         tech: ["React Native", "Firestore", "React"],
         status: "Development",
-        link: "https://github.com/AdiCampan"
+        link: "https://church-teams.web.app/",
+        github: "https://github.com/AdiCampan/church-organizer",
+        cover: churchCover,
+        gallery: [
+            { url: churchCover, caption: "Team Management Dashboard" },
+            { url: church2, caption: "Rehearsal Scheduler" },
+            { url: church3, caption: "Song Library" },
+            { url: churchImg, caption: "Mobile View" }
+        ]
     }
 ];
 
