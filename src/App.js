@@ -44,22 +44,32 @@ function App() {
             <h3 className="contact-name">ADRIAN CAMPAN</h3>
             <div className="contact-details">
               <p>📍 Onda, Castellón, Spain</p>
-              <p>📱 +34 637 951 683</p>
+              <p>📱 <a href="tel:637951683" style={{ color: 'inherit', textDecoration: 'none' }}>637 951 683</a></p>
+              <p>📧 <a href="mailto:adicampan1974@gmail.com" style={{ color: 'inherit', textDecoration: 'none' }}>adicampan1974@gmail.com</a></p>
             </div>
 
             <div className="contact-actions-grid">
-              {contactActions.map((action, i) => (
-                <a
-                  key={i}
-                  href={action.link}
-                  className="contact-action-btn"
-                  target={action.link.startsWith('http') ? "_blank" : undefined}
-                  rel="noreferrer"
-                >
-                  <span className="action-icon">{action.icon}</span>
-                  <span className="action-text">{action.label}</span>
-                </a>
-              ))}
+              {contactActions.map((action, i) => {
+                const isExternal = action.link.startsWith('http');
+                return (
+                  <a
+                    key={i}
+                    href={action.link}
+                    className="contact-action-btn"
+                    target={isExternal ? "_blank" : undefined}
+                    rel={isExternal ? "noopener noreferrer" : undefined}
+                    onClick={(e) => {
+                      if (!isExternal) {
+                        // For mailto and tel, manually trigger location if default fails
+                        window.location.href = action.link;
+                      }
+                    }}
+                  >
+                    <span className="action-icon">{action.icon}</span>
+                    <span className="action-text">{action.label}</span>
+                  </a>
+                );
+              })}
             </div>
 
             <div className="social-links-area">
