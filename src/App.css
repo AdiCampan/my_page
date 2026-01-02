@@ -497,6 +497,8 @@
   color: var(--text-primary);
   border: 1px solid var(--border-glass);
   padding: 0.6rem 1.2rem;
+  margin-left: 0.7rem;
+  margin-bottom: 0.7rem;
   border-radius: 10px;
   font-weight: 500;
   font-family: var(--font-main);
@@ -510,6 +512,8 @@
   border: 1px solid var(--border-glass);
   width: 42px;
   height: 42px;
+  margin-bottom: 0.7rem;
+
   display: flex;
   align-items: center;
   justify-content: center;
